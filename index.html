@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home work 1</title>
+</head>
+
+<body style="background: #fafafa">
+
+    <h1 style="font-size: 42px">Домашнє завдання 3</h1>
+    <hr>
+    <p>
+        <a href="table.html" style="font-size: 20px">
+            ТАБЛИЧКИ
+        </a>
+    </p>
+    <hr>
+    <p style="font-size: 22px">Хочу запропонувати вам пройти невеличке опитування</p>
+    <p style="font-size: 20px">Заздалегідь вдячний Вам за щирі та відверті відповіді!</p>
+    <hr>
+    <br>
+    <form action="https://formspree.io/jaerbi42@gmail.com" method="POST">
+        <!-- Особиста інформація -->
+        <fieldset>
+            <legend style="font-size: 18px">
+                <b>Особиста інформація</b>
+            </legend>
+            <br>
+            <label for="name">
+                Напишіть Ваше ім'я:
+            </label>
+            <input id="name" type="text" name="user-name" placeholder="Ваше ім'я" required>
+            <br><br>
+            
+            <label for="user-phone">
+                Вкажіть Ваш номер телефону:
+            </label>
+            <input id="user-phone" type="number" name="user-phone" placeholder="Ваш номер" required>
+            <br><br>
+            
+            <label for="user-mail">
+                Вкажіть Ваш Email:
+            </label>
+            <input id="user-mail" type="email" name="email" placeholder="Ваш Email" required>
+            <br><br>
+            
+            <label for="user-age">
+                Вкажіть дату вашого народження:
+            </label>
+            <input id="user-age" type="date" name="user-age" required>
+            <br><br>
+        </fieldset>
+        <br>
+        
+        <!--Які фільми вам подобаються-->
+        <fieldset>
+            <legend style="font-size: 18px">
+               <b>Які фільми вам подобаються</b>
+            </legend>
+            <br>
+            
+            <p>
+                В якому перекладі фільми ви дивитесь
+            </p>
+            <label for="translation-uk">
+                Українському
+            </label>
+            <input id="translation-uk" type="radio" name="user-translation" value="Українському" required>
+            
+            <label for="translation-ru">
+                Російському
+            </label>
+            <input id="translation-ru" type="radio" name="user-translation" value="Російському" required>
+            
+            <label for="translation-origin">
+                Оригіналі
+            </label>
+            <input id="translation-origin" type="radio" name="user-translation" value="Оригіналі" required>
+            <hr>
+            <br>
+            
+            <p>
+                Якого жанру фільми Ви полюбляєте?
+            </p>
+            <label for="genre-biography">
+                Біографія
+            </label>
+            <input id="genre-biography" type="checkbox" name="genre" value="Біографія" checked>
+            
+            <label for="genre-action_film">
+                Бойовик
+            </label>
+            <input id="genre-action_film" type="checkbox" name="genre" value="Бойовик">
+            
+            <label for="genre-western">
+                Вестерн
+            </label>
+            <input id="genre-western" type="checkbox" name="genre" value="Вестерн">
+            
+            <label for="genre-drama">
+                Драма
+            </label>
+            <input id="genre-drama" type="checkbox" name="genre" value="Драма">
+            
+            <label for="genre-comedy">
+                Комедія
+            </label>
+            <input id="genre-comedy" type="checkbox" name="genre" value="Комедія">
+            
+            <label for="genre-melodrama">
+                Мелодрама
+            </label>
+            <input id="genre-melodrama" type="checkbox" name="genre" value="Мелодрама">
+            
+            <label for="genre-thriller">
+                Трилер
+            </label>
+            <input id="genre-thriller" type="checkbox" name="genre" value="Трилер">
+            
+            <label for="genre-horror_movie">
+                Фільм жахів
+            </label>
+            <input id="genre-horror_movie" type="checkbox" name="genre" value="Фільм жахів">
+            
+            <label for="genre-fantasy">
+                Фантастика
+            </label>
+            <input id="genre-fantasy" type="checkbox" name="genre" value="Фантастика">
+            
+            <label for="genre-erotica">
+                Еротика
+            </label>
+            <input id="genre-erotica" type="checkbox" name="genre" value="Еротика">
+            <hr>
+            <br>
+            <p>
+                Який жанр Ваш улюблений?
+            </p>
+            
+            <label>
+                Біографія 
+                <input type="radio" name="favorite_genre" value="Біографія" required>
+            </label>
+            
+            <label>
+                Бойовик
+                <input type="radio" name="favorite_genre" value="Бойовик" required>
+            </label>
+            
+            <label>
+                Вестерн
+                <input type="radio" name="favorite_genre" value="Вестерн" required>
+            </label>
+            
+            <label>
+                Драма
+                <input type="radio" name="favorite_genre" value="Драма" required>
+            </label>
+            
+            <label>
+                Комедія
+                <input type="radio" name="favorite_genre" value="Комедія" required>
+            </label>
+            
+            <label>
+                Мелодрама
+                <input type="radio" name="favorite_genre" value="Мелодрама" required>
+            </label>
+            
+            <label>
+                Трилер
+                <input type="radio" name="favorite_genre" value="Трилер" required>
+            </label>
+            
+            <label>
+                Фільм жахів
+                <input type="radio" name="favorite_genre" value="Фільм жахів" required>
+            </label>
+            
+            <label>
+                Фантастика
+                <input type="radio" name="favorite_genre" value="Фантастика" required>
+            </label>
+            
+            <label>
+                Еротика
+                <input type="radio" name="favorite_genre" value="Еротика" required>
+            </label>
+            <hr>
+            <br>
+            
+            <p>
+                Які фільми Ви полюбляєте дивитись разом з коханою людиною?
+            </p>
+            
+            <label for="select-film">
+                Виберіть фільм:
+            </label>
+            <select id="select-film" name="film-sweetheart">
+                <option selected>
+                    Бойовик
+                </option>
+                <option>
+                    Вестерн
+                </option>
+                <option>
+                    Драма
+                </option>
+                <option>
+                    Комедія
+                </option>
+                <option>
+                    Фільм жахів
+                </option>
+                <option>
+                    Фантастика
+                </option>
+                <option>
+                    Мелодрама
+                </option>
+                <option>
+                    Еротика
+                </option>
+            </select>
+            <hr>
+            <br>
+            
+            <p>Якщо ні один варіант вам не підійшов</p>
+            <label for="user-version">Напишіть свій варіант:</label>
+            <br>
+            <textarea id="user-version" name="user-version" cols="30" rows="4" placeholder="Напишіть ваш варіант..."></textarea>
+            <hr>
+            <br>
+            
+            <p>Який ваш улюблений фільм</p>
+            <label>
+                Ваш варіант:
+                <br>
+                <textarea name="user-version_film" cols="40" rows="6" placeholder="Пишіть сюди..." required></textarea>
+            </label>
+            <hr>
+            <br>
+            
+            <p>Фільми яких компаній ви полюбляєте</p>
+            <label for="film-company">
+                Виберіть компанії:
+            </label>
+            <br>
+            <select id="film-company" name="film-company" multiple size="4" required>
+                <option>
+                    Двадцяте Століття Фокс
+                </option>
+                <option>
+                    Волт Дісней Пі́кчерз
+                </option>
+                <option>
+                    Marvel Studios
+                </option>
+                <option>
+                    Universal Studios
+                </option>
+                <option>
+                    Нью Лайн Синема
+                </option>
+                <option>
+                    Lucasfilm
+                </option>
+                <option>
+                    Pixar Animation Studios
+                </option>
+                <option>
+                    DC Comics
+                </option>
+                <option>
+                    Blue Sky Studios
+                </option>
+                <option>
+                    Lionsgate
+                </option>
+            </select>
+        </fieldset>
+        <br>
+        <!--Кнопки відправлення-->
+        <input type="submit" value="Відправити">
+        <input type="reset" value="Скинути">
+
+    </form>
+        <br>
+    <img width=600 height=260 src="film.jpeg" alt="FILM">
+</body>
+
+</html>
